@@ -1,0 +1,17 @@
+class Student:
+    def __init__(self,name,rollno):
+        self.name=name
+        self.rollno=rollno
+    def setage(self,age):
+        self.age=age
+    def setmarks(self,marks):
+        self.marks=marks
+    def Display(self):
+        print("Name: ",self.name)
+        print("Rollno: ",self.rollno)
+        print("age: ",self.age)
+        print("marks: ",self.marks)
+obj=Student('khadija',36)
+obj.setage(19)
+obj.setmarks(777)
+obj.Display()
